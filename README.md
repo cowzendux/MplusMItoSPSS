@@ -2,6 +2,8 @@
 
 SPSS Python Extension function to combine imputed datasets created by Mplus into a single multiple-imputation dataset in SPSS.
 
+This and other SPSS Python Extension functions can be found at http://www.stat-help.com/python.html
+
 ##Usage
 **MplusMItoSPSS(imputeloc)**
 * "imputeloc" is a string that indicates the directory and root filename of the imputed data sets. All files that start with the root filename and have the extension .dat will be combined into the new spss data set. If the root filename is excluded (i.e., if imputeloc ends with a forward slash), then the program will include all .dat files in the directory in the new spss data set.
